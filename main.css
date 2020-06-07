@@ -1,0 +1,299 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(71, 67, 67);
+    color: white;
+}
+/* conf_tela*/
+
+.area {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(65, 60, 60);
+    box-shadow: 2px 2px 30px black;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial;
+    position: relative;
+    top: 10px;
+}
+.conversor {
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    left: 13%;
+}
+
+/*-----------------------------------------------------------*/
+.KC {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+#valor_KC {
+    margin: 0px;
+    border: 2px solid rgb(93, 185, 93);
+    height: 25px;
+    border-right: none;
+    padding-left: 20px;
+    width: 100px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: rgb(65, 60, 60);
+    color: white;
+}
+
+#transf_KC {
+    color: white;
+    width: 40px;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    height: 32px;
+    background-color: rgb(93, 185, 93);
+    cursor: pointer;
+    outline: none;
+}
+#transf_KC:hover {
+    background-color: rgb(81, 148, 81);
+}
+#result_KC {
+    position: absolute;
+    top: 0;
+    left: 42.9%;
+    margin: 0px;
+    border: 2px solid rgb(93, 185, 93);
+    height: 23px;
+    border-left: none;
+    width: 100px;
+    padding-left: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#valor_KC:focus {
+    outline: none;
+}
+#result_KC:focus {
+    outline: none;
+}
+
+/*------------------------------------------------------------*/
+.CK {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+#valor_CK {
+    margin: 0px;
+    border: 2px solid rgb(93, 185, 93);
+    height: 25px;
+    border-right: none;
+    padding-left: 20px;
+    width: 100px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: rgb(65, 60, 60);
+    color: white;
+}
+
+#transf_CK {
+    color: white;
+    width: 40px;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    height: 32px;
+    background-color: rgb(93, 185, 93);
+    cursor: pointer;
+    outline: none;
+}
+#transf_CK:hover {
+    background-color: rgb(81, 148, 81);
+}
+#result_CK {
+    position: absolute;
+    top: 72px;
+    left: 42.9%;
+    margin: 0px;
+    border: 2px solid rgb(93, 185, 93);
+    height: 23px;
+    border-left: none;
+    width: 100px;
+    padding-left: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#valor_CK:focus {
+    outline: none;
+}
+#result_CK:focus {
+    outline: none;
+}
+/*--------------------------------------------------*/
+
+/*-------------------------------------------------*/
+.CF {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+#valor_CF {
+    margin: 0px;
+    border: 2px solid rgb(93, 185, 93);
+    height: 25px;
+    border-right: none;
+    padding-left: 20px;
+    width: 100px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: rgb(65, 60, 60);
+    color: white;
+}
+
+#transf_CF {
+    color: white;
+    width: 40px;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    height: 32px;
+    background-color: rgb(93, 185, 93);
+    cursor: pointer;
+    outline: none;
+}
+#transf_CF:hover {
+    background-color: rgb(81, 148, 81);
+}
+#result_CF {
+    position: absolute;
+    top: 144px;
+    left: 42.9%;
+    margin: 0px;
+    border: 2px solid rgb(93, 185, 93);
+    height: 23px;
+    border-left: none;
+    width: 100px;
+    padding-left: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#valor_CF:focus {
+    outline: none;
+}
+#result_CF:focus {
+    outline: none;
+}
+
+/*---------------------------------------------------------*/
+.FC {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+#valor_FC {
+    margin: 0px;
+    border: 2px solid rgb(93, 185, 93);
+    height: 25px;
+    border-right: none;
+    padding-left: 20px;
+    width: 100px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: rgb(65, 60, 60);
+    color: white;
+}
+
+#transf_FC {
+    color: white;
+    width: 40px;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    height: 32px;
+    background-color: rgb(93, 185, 93);
+    cursor: pointer;
+    outline: none;
+}
+#transf_FC:hover {
+    background-color: rgb(81, 148, 81);
+}
+#result_FC {
+    position: absolute;
+    top: 216px;
+    left: 42.9%;
+    margin: 0px;
+    border: 2px solid rgb(93, 185, 93);
+    height: 23px;
+    border-left: none;
+    width: 100px;
+    padding-left: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#valor_FC:focus {
+    outline: none;
+}
+#result_FC:focus {
+    outline: none;
+}
+#botao_z {
+    width: 295px;
+    height: 40px;
+    background-color: rgb(93, 185, 93);
+    border: none;
+    position: relative;
+    left: 13%;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+    outline: none;
+}
+#botao_z:hover {
+    background-color: rgb(81, 148, 81);
+}
+span {
+    color: white;
+    font-weight: 500;
+    font-family: Arial;
+    font-size: 10pt;
+    position: relative;
+    top: 100px;
+    right: 70%;
+}
+#fechar {
+    width: 37px;
+    height: 30px;
+    border: none;
+    background-color: rgb(93, 185, 93);
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 13pt;
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    cursor: pointer;
+    outline: none;
+}
+#fechar:hover {
+    background-color: rgb(81, 148, 81);
+}

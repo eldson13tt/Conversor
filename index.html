@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="area">
+            <h1>Conversor</h1>
+            <div class="conversor">
+                <div class="KC">
+                    <form class="form_KC">
+                        <input type="text" id="valor_KC" autocomplete="off" placeholder="Kelvin>Celsius">
+                        <button id="transf_KC">=</button>
+                        <div id="result_KC"></div>
+                    </form>
+                </div>
+                <div class="CK">
+                    <form class="form_CK">
+                        <input type="text" id="valor_CK" autocomplete="off" placeholder="Celsius>Kelvin">
+                        <button id="transf_CK">=</button>
+                        <div id="result_CK"></div>
+                    </form>
+                </div>
+                <div class="CF">
+                    <form class="form_CF">
+                        <input type="text" id="valor_CF" autocomplete="off" placeholder="Celsius>Fahre...">
+                        <button id="transf_CF">=</button>
+                        <div id="result_CF"></div>
+                    </form>
+                </div>
+                <div class="FC">
+                    <form class="form_FC">
+                        <input type="text" id="valor_FC" autocomplete="off" placeholder="Fahrenheit>Cel...">
+                        <button id="transf_FC">=</button>
+                        <div id="result_FC"></div>
+                    </form>
+                </div>
+            </div>
+            <button id="botao_z">Zerar</button>
+            <span>Version: 1.0.0</span>
+            <button id="fechar" onclick="javascript:window.close()">X</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
